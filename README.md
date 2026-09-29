@@ -44,15 +44,15 @@ This project simulates enterprise identity lifecycle states, precise LDAP attrib
 1. Execute the installer payload with elevated system rights on the domain instance host.
 2. Bind the local engine to the active system domain root: `Musah.com`.
 
-![AD Agent Domain Targeting](Assets/01_ad_agent_domain_targeting.jpg)
+![AD Agent Domain Targeting](Assets/01_ad_agent_domain_targeting.png)
 
 3. Authorize the secure control plane handshake utilizing the modern OAuth 2.0 Device Code workflow. Approve the access request payload when prompted by the identity client gateway.
 
-![Okta OAuth Device Code Authorization](Assets/02_okta_oauth_device_code.jpg)
+![Okta OAuth Device Code Authorization](Assets/02_okta_oauth_device_code.png)
 
 4. Once the verification portal signs off on the token request, the deployment process validates the secure tunnel setup.
 
-![Okta Device Activation Success](Assets/03_okta_device_activation.jpg)
+![Okta Device Activation Success](Assets/03_okta_device_activation.png)
 ![Okta Agent Status Healthy Validation](Assets/05_okta_agent_status_healthy.png)
 
 ---
